@@ -5,5 +5,4 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      command: npm run serve
     image: chaikub/tool-image:1.0
