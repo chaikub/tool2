@@ -13,5 +13,7 @@ RUN npm install
 # Copy the rest of the application code to the container
 COPY . .
 
+RUN npm run serve
+
 # Start the app
 CMD ["npm", "run", "serve"]
